@@ -4,7 +4,8 @@ Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /*
 =============== 
 Variables
@@ -127,6 +128,8 @@ p {
   h4 {
     line-height: 1;
   }
+  
+
 }
 /*  global classes */
 
@@ -205,11 +208,16 @@ main {
 .container h2 {
   background: var(--clr-black);
   color: var(--clr-white);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: var(--radius);  
   width: 98%;
   margin: 0 auto 2.5rem;
   word-wrap: break-word;
+  font-weight: 100;
+}
+
+.container h2 span{
+  font-family: 'Dancing Script', cursive;
 }
 .color {
   color: var(--clr-primary-5);
