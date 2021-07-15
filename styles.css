@@ -4,7 +4,7 @@ Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 /*
 =============== 
 Variables
@@ -234,7 +234,15 @@ main {
   background: var(--clr-black);
 }
 
+a>{
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Otomanopee', sans-serif !important;
+  
+}
+
 footer{
   text-align: center;
-  font-size: 30px;
+  font-size: 2em !important;
+  
 }
