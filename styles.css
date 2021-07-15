@@ -195,7 +195,7 @@ Container
 ===============
 */
 main {
-  min-height: calc(100vh - 3rem);
+  min-height: calc(90vh - 3rem);
   display: grid;
   place-items: center;
 }
@@ -206,8 +206,9 @@ main {
   background: var(--clr-black);
   color: var(--clr-white);
   padding: 1rem;
-  border-radius: var(--radius);
-  margin-bottom: 2.5rem;
+  border-radius: var(--radius);  
+  width: 90%;
+  margin: 0 auto 2.5rem;
 }
 .color {
   color: var(--clr-primary-5);
@@ -231,4 +232,9 @@ main {
 .btn-hero:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+
+footer{
+  text-align: center;
+  font-size: 30px;
 }
