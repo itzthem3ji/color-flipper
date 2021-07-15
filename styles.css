@@ -149,7 +149,7 @@ p {
   }
 }
 main {
-  min-height: 90vh;
+  min-height: 80vh;
   display: grid;
   place-items: center;
 }
