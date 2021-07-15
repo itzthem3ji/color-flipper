@@ -105,7 +105,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {  
   h1 {
     font-size: 4rem;
   }
@@ -113,7 +113,7 @@ p {
     font-size: 1.85rem;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
   h4 {
     font-size: 1rem;
@@ -205,10 +205,11 @@ main {
 .container h2 {
   background: var(--clr-black);
   color: var(--clr-white);
-  padding: 1rem;
+  padding: 2rem;
   border-radius: var(--radius);  
-  width: 90%;
+  width: 98%;
   margin: 0 auto 2.5rem;
+  word-wrap: break-word;
 }
 .color {
   color: var(--clr-primary-5);
