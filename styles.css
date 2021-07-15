@@ -149,7 +149,7 @@ p {
   }
 }
 main {
-  min-height: 95vh;
+  min-height: 90vh;
   display: grid;
   place-items: center;
 }
@@ -198,7 +198,7 @@ Container
 ===============
 */
 main {
-  min-height: calc(85vh - 3rem);
+  min-height: calc(80vh - 3rem);
   display: grid;
   place-items: center;
 }
